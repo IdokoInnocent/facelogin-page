@@ -1,0 +1,32 @@
+#parentbox{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 1px solid red;
+    align-items: flex-end;
+}
+
+
+#parentbox > div {
+    margin: 5px;
+    height: 145px;
+    background-color: green;
+    border: 5px solid blue;
+}
+
+#box-1{
+    flex: 1;
+}
+
+#box-2{
+    flex: 1;
+    align-self: center;
+}
+
+#box-3{
+    flex: 1;
+}
+
+#box-4{
+    flex: 1;
+}
